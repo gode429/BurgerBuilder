@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import Aux from '../../hoc/_Aux';
+import Aux from '../../hoc/_Aux/_Aux';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
-import Modal from '../../components/Modal/Modal';
+import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary'
+
 const INGREDIENTS_PRICES = {
     salad : 0.5,
     bacon :0.4,
