@@ -74,7 +74,7 @@ class BurgerBuilder extends Component {
                         disabled={disabledInfo}
                         purchasable={this.updatePurchaseState(this.props.ings)}
                         ordered={this.purchaseHandler}
-                        isAuth={this.props.isAuthenticated}
+                        isAuthenticated={this.props.isAuthenticated}
                         price={this.props.price} />
                 </Aux>
             );
